@@ -1,0 +1,27 @@
+
+<html>
+  <head>
+    <title>Test auth0-widget</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+    <script src="https://cdn.auth0.com/w2/auth0-widget-4.min.js"></script>
+    <script>
+      var widget = new Auth0Widget({
+        domain:      'mdocs.auth0.com',
+        clientID:    '0HP71GSd6PuoRYJ3DXKdiXCUUdGmBbup',
+        callbackURL: window.location.href,
+      });
+      
+      widget.show();
+      
+      widget.parseHash(window.location.hash, function (profile, id_token, access_token, state) {
+        $('#userinfo').text(JSON.stringify(profile, 0, 2));
+      });
+    </script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+
+  </body>
+</html>
