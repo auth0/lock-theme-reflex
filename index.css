@@ -18,6 +18,12 @@
 #a0-widget .a0-panel .a0-inputs {
   border-color: rgba(0, 0, 0, 0.4);
 }
+#a0-widget .a0-panel .a0-email input,
+#a0-widget .a0-panel .a0-password input,
+#a0-widget .a0-panel .a0-repeatPassword input {
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+}
 #a0-widget .a0-panel .a0-separator {
   color: rgba(255, 255, 255, 0.5);
 }
