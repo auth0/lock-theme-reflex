@@ -41,7 +41,9 @@ module.exports = function (grunt) {
           { src:     'widget-theme-reflex-' + minorVersion + '/index.html', },
           { src:     'widget-theme-reflex-' + minorVersion + '/index.css', },
           { src:     'widget-theme-reflex-' + pkg.version  + '/index.html', },
-          { src:     'widget-theme-reflex-' + pkg.version  + '/index.css', }
+          { src:     'widget-theme-reflex-' + pkg.version  + '/index.css', },
+          { src:     'widget-theme-reflex/index.html', },
+          { src:     'widget-theme-reflex/index.css', },
         ]
       },
       publish: {
@@ -56,6 +58,10 @@ module.exports = function (grunt) {
         }, {
           src:    'release/*',
           dest:   'widget-theme-reflex-' + pkg.version + '/',
+          options: { gzip: false }
+        }, {
+          src:    'release/*',
+          dest:   'widget-theme-reflex/',
           options: { gzip: false }
         }]
       }
@@ -75,7 +81,9 @@ module.exports = function (grunt) {
           { src:     'widget-theme-reflex-' + minorVersion + '/index.html', },
           { src:     'widget-theme-reflex-' + minorVersion + '/index.css', },
           { src:     'widget-theme-reflex-' + pkg.version  + '/index.html', },
-          { src:     'widget-theme-reflex-' + pkg.version  + '/index.css', }
+          { src:     'widget-theme-reflex-' + pkg.version  + '/index.css', },
+          { src:     'widget-theme-reflex/index.html', },
+          { src:     'widget-theme-reflex/index.css', }
         ],
       },
     }
