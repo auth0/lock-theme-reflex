@@ -2,7 +2,7 @@
 =            Widget Gradient            =
 =======================================*/
 #a0-widget .a0-panel {
-  background-image: linear-gradient(120deg, rgba(148, 47, 13, 0.97) 0%, rgba(20, 32, 77, 0.6) 100%), url('img/bg.gif');
+  background-image: linear-gradient(120deg, rgba(148, 47, 13, 0.97) 0%, rgba(20, 32, 77, 0.6) 100%), url('https://i.cloudup.com/VXthb7WaA3.gif');
   background-size: cover;
   color: white;
 }
@@ -44,7 +44,7 @@
 }
 @media screen and (max-width: 480px) {
   #a0-widget .a0-popup .a0-overlay {
-    background-image: linear-gradient(120deg, rgba(148, 47, 13, 0.97) 0%, rgba(20, 32, 77, 0.6) 100%), url('img/bg.gif');
+    background-image: linear-gradient(120deg, rgba(148, 47, 13, 0.97) 0%, rgba(20, 32, 77, 0.6) 100%), url('https://i.cloudup.com/VXthb7WaA3.gif');
     background-size: cover;
     color: white;
   }
