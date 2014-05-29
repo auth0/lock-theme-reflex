@@ -42,3 +42,13 @@
 #a0-widget .a0-panel .a0-footer .a0-logo i {
   color: white;
 }
+@media screen and (max-width: 480px) {
+  #a0-widget .a0-popup .a0-overlay {
+    background-image: linear-gradient(120deg, rgba(148, 47, 13, 0.97) 0%, rgba(20, 32, 77, 0.6) 100%), url('img/bg.gif');
+    background-size: cover;
+    color: white;
+  }
+  #a0-widget .a0-popup .a0-overlay .a0-panel {
+    background: transparent;
+  }
+}
