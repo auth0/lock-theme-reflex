@@ -1,54 +1,69 @@
 /*=======================================
 =            Widget Gradient            =
 =======================================*/
-#a0-widget .a0-panel {
+body #a0-lock .a0-panel,
+body #a0-widget .a0-panel {
   background-image: linear-gradient(120deg, rgba(148, 47, 13, 0.97) 0%, rgba(20, 32, 77, 0.6) 100%), url('https://i.cloudup.com/VXthb7WaA3.gif');
   background-size: cover;
   color: white;
 }
-#a0-widget .a0-panel .a0-close:hover {
+body #a0-lock .a0-panel .a0-close:hover,
+body #a0-widget .a0-panel .a0-close:hover {
   color: #fff;
 }
-#a0-widget .a0-panel .a0-avatar {
+body #a0-lock .a0-panel .a0-avatar,
+body #a0-widget .a0-panel .a0-avatar {
   background: rgba(0, 0, 0, 0.2);
 }
-#a0-widget .a0-panel .a0-avatar i {
+body #a0-lock .a0-panel .a0-avatar i,
+body #a0-widget .a0-panel .a0-avatar i {
   color: #fff;
 }
-#a0-widget .a0-panel .a0-inputs {
+body #a0-lock .a0-panel .a0-inputs,
+body #a0-widget .a0-panel .a0-inputs {
   border-color: rgba(0, 0, 0, 0.4);
 }
-#a0-widget .a0-panel .a0-email input,
-#a0-widget .a0-panel .a0-password input,
-#a0-widget .a0-panel .a0-repeatPassword input {
+body #a0-lock .a0-panel .a0-email input,
+body #a0-widget .a0-panel .a0-email input,
+body #a0-lock .a0-panel .a0-password input,
+body #a0-widget .a0-panel .a0-password input,
+body #a0-lock .a0-panel .a0-repeatPassword input,
+body #a0-widget .a0-panel .a0-repeatPassword input {
   background: rgba(255, 255, 255, 0.9);
   color: black;
 }
-#a0-widget .a0-panel .a0-separator {
+body #a0-lock .a0-panel .a0-separator,
+body #a0-widget .a0-panel .a0-separator {
   color: rgba(255, 255, 255, 0.5);
 }
-#a0-widget .a0-panel button.a0-primary {
+body #a0-lock .a0-panel button.a0-primary,
+body #a0-widget .a0-panel button.a0-primary {
   background: rgba(0, 0, 0, 0.4);
   border-radius: 100px;
   width: 80%;
 }
-#a0-widget .a0-panel .a0-btn-small {
+body #a0-lock .a0-panel .a0-btn-small,
+body #a0-widget .a0-panel .a0-btn-small {
   border-color: rgba(255, 255, 255, 0.2);
 }
-#a0-widget .a0-panel .a0-btn-small:hover {
+body #a0-lock .a0-panel .a0-btn-small:hover,
+body #a0-widget .a0-panel .a0-btn-small:hover {
   border-color: white;
   background: none;
 }
-#a0-widget .a0-panel .a0-footer .a0-logo i {
+body #a0-lock .a0-panel .a0-footer .a0-logo i,
+body #a0-widget .a0-panel .a0-footer .a0-logo i {
   color: white;
 }
 @media screen and (max-width: 480px) {
-  #a0-widget .a0-popup .a0-overlay {
+  body #a0-lock .a0-popup .a0-overlay,
+  body #a0-widget .a0-popup .a0-overlay {
     background-image: linear-gradient(120deg, rgba(148, 47, 13, 0.97) 0%, rgba(20, 32, 77, 0.6) 100%), url('https://i.cloudup.com/VXthb7WaA3.gif');
     background-size: cover;
     color: white;
   }
-  #a0-widget .a0-popup .a0-overlay .a0-panel {
+  body #a0-lock .a0-popup .a0-overlay .a0-panel,
+  body #a0-widget .a0-popup .a0-overlay .a0-panel {
     background: transparent;
   }
 }
