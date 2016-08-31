@@ -1,5 +1,7 @@
 [![Auth0](https://i.cloudup.com/1vaSVATKTL.png)](http://auth0.com)
 
+> Only available for Lock v9
+
 [![Auth0](https://i.cloudup.com/96_mBoUpcq.png)](http://auth0.com)
 
 ## Issue Reporting
