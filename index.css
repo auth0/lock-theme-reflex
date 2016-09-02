@@ -3,7 +3,7 @@
 =======================================*/
 body #a0-lock.a0-theme-default .a0-panel,
 body #a0-widget .a0-panel {
-  background: linear-gradient(120deg, rgba(148, 47, 13, 0.97) 0%, #16214d 100%);
+  background: linear-gradient(120deg, rgba(148, 47, 13, 0.97) 0%, #16214D 100%);
   color: white;
 }
 body #a0-lock.a0-theme-default .a0-panel .a0-close:hover,
@@ -53,6 +53,13 @@ body #a0-widget .a0-panel .a0-btn-small:hover {
 body #a0-lock.a0-theme-default .a0-panel .a0-footer .a0-logo i,
 body #a0-widget .a0-panel .a0-footer .a0-logo i {
   color: white;
+}
+body #a0-lock.a0-theme-default .a0-panel .a0-spinner .a0-spinner-circle-outer .a0-spinner-circle-inner,
+body #a0-widget .a0-panel .a0-spinner .a0-spinner-circle-outer .a0-spinner-circle-inner {
+  border-top-color: rgba(255, 255, 255, 0.2);
+  border-right-color: rgba(255, 255, 255, 0.2);
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  border-left-color: #ffffff;
 }
 @media screen and (max-width: 480px) {
   body #a0-lock .a0-popup .a0-overlay,
